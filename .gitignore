@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境变量
+.env
+.env.local
+
+# 输出文件
+output/
+trajectories/
+*.log
+.specstory/
+
+# 用户数据目录（包含敏感信息）
+feishu_data/
+dingtalk_data/
+
+# 数据文件（可选，根据实际情况调整）
+# data/
+# data/example/
+
+# DSBench 数据集（文件太大，不上传 GitHub）
+data/DSBench/
+
+# macOS
+.DS_Store
+
+
+# 临时文件
+*.tmp
+*.bak
+
+# 视频文件（如果文件太大，建议上传到视频平台）
+# 取消下面的注释以忽略视频文件
+# docs/demo/*.mp4
+# docs/demo/*.mov
+# docs/demo/*.avi
