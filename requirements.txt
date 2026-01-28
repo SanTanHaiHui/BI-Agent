@@ -1,0 +1,39 @@
+# BI-Agent 依赖包
+
+# 数据处理
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# 数据可视化
+matplotlib>=3.7.0
+
+# CLI 工具
+click>=8.0.0
+rich>=13.0.0
+
+# 配置管理
+python-dotenv>=1.0.0
+
+# LLM 客户端（根据实际使用的 API 选择）
+# OpenAI
+openai>=1.0.0
+# HTTP 客户端（openai 依赖）
+httpx>=0.24.0
+# SOCKS 代理支持（如果需要使用代理）
+socksio>=1.0.0
+# Anthropic
+# anthropic>=0.18.0
+# Google
+# google-generativeai>=0.3.0
+
+# 其他工具
+typing-extensions>=4.5.0
+
+# 记忆管理（可选，用于长短期记忆和消息压缩）
+mem0ai>=1.0.0
+
+# 飞书通道依赖（长连接方式）
+lark-oapi>=1.0.0
+
+# 钉钉通道依赖
+dingtalk-stream>=0.24.0
