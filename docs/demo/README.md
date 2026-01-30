@@ -1,43 +1,26 @@
-# 演示视频
+# 演示（GIF 预览）
 
-本目录用于存放 BI-Agent 的演示视频。
+本目录用于存放 BI-Agent 的演示 GIF，并在文档中直接预览展示。
 
-## 视频文件
+## GIF 文件
 
-- `demo.mp4` - 主要演示视频
+- `demo.gif` - 主要演示 GIF
 
-## 使用说明
+## 预览效果
 
-### 方式一：直接存放视频文件
+![BI-Agent 演示](./demo.gif)
 
-将演示视频文件（建议使用 `.mp4` 格式）放在此目录下，命名为 `demo.mp4`。
-
-**注意**：
-- GitHub 对单个文件大小有限制（建议不超过 100MB）
-- 如果视频文件较大，建议使用方式二
-
-### 方式二：上传到视频平台（推荐）
-
-如果视频文件较大，建议：
-
-1. 上传到视频平台：
-   - [YouTube](https://www.youtube.com/)
-   - [Bilibili](https://www.bilibili.com/)
-   - [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
-
-2. 在 `README.md` 中添加视频链接：
+## 在根目录 `README.md` 中引用
 
 ```markdown
-## 📹 演示视频
+## 🎬 演示（GIF 预览）
 
-- **YouTube**: [观看演示](https://youtube.com/watch?v=xxx)
-- **Bilibili**: [观看演示](https://www.bilibili.com/video/xxx)
-- **GitHub Releases**: [下载视频](https://github.com/xxx/releases)
+![BI-Agent 演示](./docs/demo/demo.gif)
 ```
 
-## 视频内容建议
+## 内容建议
 
-演示视频应包含以下内容：
+演示内容建议包含以下部分：
 
 1. **项目介绍**（可选）
    - 项目功能概述
